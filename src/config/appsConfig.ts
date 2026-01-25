@@ -6,5 +6,5 @@ export const appsConfig = new AppsConfig({
 			.setDescription("Application for browsing files."),
 		terminal.setName("Terminal"),
 		textEditor.setName("Text Editor"),
-	]
+	],
 });

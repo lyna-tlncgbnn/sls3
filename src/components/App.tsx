@@ -1,21 +1,19 @@
 import { Desktop, ModalsView, ProzillaOS, Taskbar, WindowsView } from "prozilla-os";
 import { appsConfig } from "../config/appsConfig";
-import { desktopConfig } from "../config/desktopConfig";
+import { skin } from "../config/skin";
 
 export function App() {
-	return (
-		<ProzillaOS
-			systemName="YourOS"
-			tagLine="Powered by ProzillaOS"
-			config={{
-				apps: appsConfig,
-				desktop: desktopConfig,
-			}}
-		>
-			<Taskbar/>
-			<WindowsView/>
-			<ModalsView/>
-			<Desktop/>
-		</ProzillaOS>
-	);
+	return <ProzillaOS
+		systemName="YourOS"
+		tagLine="Powered by ProzillaOS"
+		config={{
+			apps: appsConfig,
+		}}
+		skin={skin}
+	>
+		<Taskbar/>
+		<WindowsView/>
+		<ModalsView/>
+		<Desktop/>
+	</ProzillaOS>;
 }
