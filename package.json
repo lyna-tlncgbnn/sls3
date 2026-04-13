@@ -20,7 +20,7 @@
 	},
 	"dependencies": {
 		"@prozilla-os/skins": "^1.1.9",
-		"prozilla-os": "^1.3.16",
+		"prozilla-os": "^2.0.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-svg": "^16.1.34"
