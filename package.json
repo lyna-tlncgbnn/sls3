@@ -20,25 +20,25 @@
 	},
 	"dependencies": {
 		"@prozilla-os/skins": "^1.1.9",
-		"prozilla-os": "^2.0.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"react-svg": "^16.1.34"
+		"prozilla-os": "^2.0.5",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-svg": "^16.4.2"
 	},
 	"devDependencies": {
-		"@eslint/js": "^9.5.0",
-		"@types/node": "^25.0.10",
-		"@types/react": "^18.2.66",
-		"@types/react-dom": "^18.2.22",
+		"@eslint/js": "^9.39.4",
+		"@types/node": "^25.9.1",
+		"@types/react": "^18.3.29",
+		"@types/react-dom": "^18.3.7",
 		"@typescript-eslint/eslint-plugin": "^7.2.0",
 		"@typescript-eslint/parser": "^7.2.0",
-		"@vitejs/plugin-react-swc": "^3.7.0",
-		"eslint": "^8.57.0",
-		"eslint-plugin-react": "^7.34.2",
-		"eslint-plugin-react-refresh": "^0.4.6",
-		"typescript": "^5.2.2",
-		"typescript-eslint": "^7.13.1",
-		"vite": "^7.3.1",
-		"vite-plugin-svgr": "^4.2.0"
+		"@vitejs/plugin-react-swc": "^3.11.0",
+		"eslint": "^8.57.1",
+		"eslint-plugin-react": "^7.37.5",
+		"eslint-plugin-react-refresh": "^0.4.26",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^7.18.0",
+		"vite": "^7.3.3",
+		"vite-plugin-svgr": "^4.5.0"
 	}
 }
