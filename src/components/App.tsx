@@ -4,8 +4,8 @@ import { skin } from "../config/skin";
 
 export function App() {
 	return <ProzillaOS
-		systemName="YourOS"
-		tagLine="Powered by ProzillaOS"
+		systemName="赛境 OS"
+		tagLine="智能汽车模拟中控"
 		config={{
 			apps: appsConfig,
 		}}
